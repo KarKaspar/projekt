@@ -1,0 +1,16 @@
+Caesari nihe (Caesar cipher) on krüptograafias üks tuntuimad šifreerimismeetodeid. Seisneb selles, et iga täht algsest tekstist an asendatud tähega, mis on kindla arvu positsioonide võrra tähestikus ees või tagapool. Sai nime Julius Caesari järgi, kes kasutas seda isiklikus kirjavahetuses (vikipeedia). 
+
+Kasutaja saab sisestada teksti, mida siis krüpeeritakse vastavalt ASCII väärtustele. Võtab sisendiks kasutaja sisestatud teksti ja nihutab tähti kas kolme võrra(vaikeväärtus) vasakule või paremale vastavalt sellele, kas soovitakse teksti krüpteerida või dekrüpteerida.
+Kui täht on suur (A-Z), siis kasutatakse ASCII väärtust 65 kui algpunkti.
+Kui täht on väike (a-z), siis kasutatakse ASCII väärtust 97 kui algpunkti.
+Esmalt loodud krüpteerimisfunktsioon. Lisatud default shift value (3), et kasutajal oleks kergem kasutajaliidest kasutada ja ei peaks tegema ülemäära valikuid.
+Krüpteerimise jaoks on vajalik:
+
+1. Teisendada täht ASCII väärtuseks, 
+2. Arvutada nihutatud tähe ASCII väärtus,
+3. Teisendada väärtus tagasi täheks,
+4. Lisada täht tagasi teksti.
+
+Seejärel käsurida.  Lisatud veakontroll, et lisada võib ainult tähti mitte numbreid ega sümboleid. Kui lisatakse sobimatu väärtus, saadab veateate, mis alustab programmi algusest.
+
+(Kui programm jooksis siis tehtud juurde kasutajaliides kasutades eelmistel aastatel õpitud teadmisi.)
