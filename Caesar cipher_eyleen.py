@@ -8,6 +8,8 @@ def caesar_krüpti(tekst, nihe=3): #defineerib funktsiooni caesar_krüpti, mis v
             nihutatud_ascii = nihutatud_positsioon + nihe_suurus # Arvutab nihutatud tähe ASCII väärtuse
             nihutatud_täht = chr(nihutatud_ascii) # Teisendab ASCII väärtuse tagasi täheks
             krüpteeritud_tekst += nihutatud_täht # Lisab nihutatud tähe krüpteeritud teksti
+        else:
+            krüpteeritud_tekst += täht
     return krüpteeritud_tekst #tagastab krüpteeritud teksti
 
 def caesar_dekrüpti(tekst, nihe=3): #defineerib funktsiooni caesar_dekrüpti, mis võtab argumendiks teksti ja nihke (3 võrra tagasi vasakule)
