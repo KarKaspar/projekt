@@ -62,7 +62,7 @@ def dekrüpteerminie():
 
 #aken
 aken = Tk()
-aken.title("LOENG 5")
+aken.title("Projekt")
 aken.geometry("450x300")
 
 #stiil
